@@ -25,7 +25,7 @@ class _UnscaledExampleState extends State<UnscaledExample> {
               color: Colors.redAccent,
               child: Center(
                 child: Text(
-                  "Scaled Text 1",
+                  "Unscale Text 1",
                   style: TextStyle(
                     fontSize: 32,
                     color: Colors.white,
@@ -40,7 +40,7 @@ class _UnscaledExampleState extends State<UnscaledExample> {
               color: Colors.green,
               child: Center(
                 child: Text(
-                  "Scaled Text 2",
+                  "Unscale Text 2",
                   style: TextStyle(
                     fontSize: 32,
                     color: Colors.white,
@@ -55,7 +55,7 @@ class _UnscaledExampleState extends State<UnscaledExample> {
               color: Colors.blue,
               child: Center(
                 child: Text(
-                  "Scaled Text 3",
+                  "Unscale Text 3",
                   style: TextStyle(
                     fontSize: 32,
                     color: Colors.white,
