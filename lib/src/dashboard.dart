@@ -12,12 +12,9 @@ class Dashboard extends StatefulWidget {
 
 class _DashboardState extends State<Dashboard>
     with RelativeScaler, SingleTickerProviderStateMixin {
-  TabController _tabController;
-
   @override
   Widget build(BuildContext context) {
     initRelativeScaler(context);
-    _tabController ??= TabController(length: 2, vsync: this);
 
     return DefaultTabController(
       length: 2,
