@@ -21,7 +21,7 @@ class _ScaledExampleState extends State<ScaledExample> with RelativeScale {
           children: <Widget>[
             Container(
               height: sy(160),
-              width: sx(400),
+              width: sy(240),
               margin: EdgeInsets.all(sy(12)),
               color: Colors.redAccent,
               child: Center(
@@ -36,7 +36,7 @@ class _ScaledExampleState extends State<ScaledExample> with RelativeScale {
             ),
             Container(
               height: sy(80),
-              width: sx(450),
+              width: sy(280),
               margin: EdgeInsets.all(sy(12)),
               color: Colors.green,
               child: Center(
@@ -51,7 +51,7 @@ class _ScaledExampleState extends State<ScaledExample> with RelativeScale {
             ),
             Container(
               height: sy(120),
-              width: sx(400),
+              width: sy(240),
               margin: EdgeInsets.all(sy(12)),
               color: Colors.blue,
               child: Center(
