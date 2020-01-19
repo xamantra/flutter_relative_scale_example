@@ -11,7 +11,7 @@ class Dashboard extends StatefulWidget {
 }
 
 class _DashboardState extends State<Dashboard>
-    with RelativeScaler, SingleTickerProviderStateMixin {
+    with RelativeScale, SingleTickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     initRelativeScaler(context);

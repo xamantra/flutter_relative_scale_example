@@ -8,7 +8,7 @@ class ScaledExample extends StatefulWidget {
   _ScaledExampleState createState() => _ScaledExampleState();
 }
 
-class _ScaledExampleState extends State<ScaledExample> with RelativeScaler {
+class _ScaledExampleState extends State<ScaledExample> with RelativeScale {
   @override
   Widget build(BuildContext context) {
     initRelativeScaler(context);
